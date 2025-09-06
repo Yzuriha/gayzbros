@@ -23,6 +23,9 @@ jobs:
         cache: 'npm'
     - run: npm install
     - name: Deploy
-      run: npm run deploy --if-present
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        npm run deploy --if-present
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
