@@ -17,7 +17,7 @@
       <karte-category-compact :items="KARTE_WARM" art="warm" category-title="warme Getränke">
         <div>Ihr habt die Wahl zwischen Hafer- und Kuhmilch.</div>
         <div>Kaffeegetränke auch entkoffeiniert erhältlich +30 cent (außer Espresso)</div>
-        <karte-card-compact-img img-src="/src/assets/img/karte/cafe.svg"
+        <karte-card-compact-img img-src="img/karte/cafe.svg"
                                 info="warm oder eiskalt genießen"
                                 name="CÀ PHÊ SŨA DÁ"
                                 preis="4.5 EURO">
@@ -32,7 +32,7 @@
       <karte-category-compact :items="KARTE_WEIN" art="wein" category-title="Weingut Johler"></karte-category-compact>
       <karte-category-compact :items="KARTE_COCKTAILS" art="cocktails"
                               category-title="Cocktails & Spritziges">
-        <karte-card-compact-img img-src="/src/assets/img/karte/martini.svg"
+        <karte-card-compact-img img-src="img/karte/martini.svg"
                                 name="ESPRESSO MARTINI"
                                 preis="9 EURO">
         </karte-card-compact-img>
@@ -43,7 +43,7 @@
       </karte-category-compact>
     </div>
     <div class="vegan-disclamer">
-      <base-image img-src="/src/assets/img/karte/vegan.svg"></base-image>
+      <base-image img-src="img/karte/vegan.svg"></base-image>
       <div>Informationen über Zutaten in unseren Speisen, die
         <b>Allergien oder Unverträglichkeiten</b> auslösen können, erhalten Sie auf Nachfrage in unserer Allergenkarte
       </div>

@@ -3,7 +3,7 @@
     <div class="karte-card-compact__name-preis">
       <div class="karte-card-compact__name">
         {{ name }}
-        <base-image v-if="isVegan" img-src="/src/assets/img/karte/vegan.svg"></base-image>
+        <base-image v-if="isVegan" img-src="img/karte/vegan.svg"></base-image>
       </div>
       <div class="karte-card-compact__preis">{{ preis }}</div>
     </div>

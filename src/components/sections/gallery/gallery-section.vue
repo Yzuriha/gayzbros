@@ -1,7 +1,7 @@
 <template>
   <base-section headline-title="Galerie">
     <div class="gallery-container">
-      <base-image v-for="img in GALLERY_IMAGES" :img-src="'/src/assets/img/gallery/' + img.src"></base-image>
+      <base-image v-for="img in GALLERY_IMAGES" :img-src="'img/gallery/' + img.src"></base-image>
     </div>
   </base-section>
 </template>

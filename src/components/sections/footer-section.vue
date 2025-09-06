@@ -31,12 +31,12 @@
     </div>
     <div class="instagram">
       <a href="https://www.instagram.com/gazebo_karlsruhe/" target="_blank">
-        <base-image img-src="/src/assets/img/instagram.svg" style="height: 2rem"></base-image>
+        <base-image img-src="img/instagram.svg" style="height: 2rem"></base-image>
       </a>
     </div>
     <div class="google">
       <a href="http://maps.app.goo.gl/EWmEWjGu4jgnn46h8" target="_blank">
-        <base-image img-src="/src/assets/img/google.svg" style="height: 2rem"></base-image>
+        <base-image img-src="img/google.svg" style="height: 2rem"></base-image>
       </a>
     </div>
   </footer>

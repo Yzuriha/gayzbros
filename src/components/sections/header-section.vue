@@ -2,12 +2,14 @@
   <header>
     <h1>GAYZEBOO</h1>
     <div class="header-arrow">
-      <img src="/src/assets/img/arrow.svg">
+      <base-image img-src="img/arrow.svg"></base-image>
     </div>
 
     <div class="header-image">
-      <img alt="buildings" class="base-image " loading="lazy" src="../../assets/img/buildings.svg">
+      <base-image img-src="img/buildings.svg"></base-image>
     </div>
   </header>
 </template>
-<script lang="ts" setup></script>
+<script setup lang="ts">
+import BaseImage from "@/components/images/base-image.vue";
+</script>
