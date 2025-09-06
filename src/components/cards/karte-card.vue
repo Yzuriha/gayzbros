@@ -27,7 +27,7 @@ export default {
       //return `/src/assets/img/karte/${this.art}/${this.imgLink}`
       // Erstmal alles template, weil keine Bilder
       let random = Math.floor(Math.random() * (5 - 1 + 1) + 1);
-      return `/src/assets/img/template${random}.png`
+      return `/img/template${random}.png`
     }
   }
 }

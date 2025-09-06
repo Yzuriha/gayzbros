@@ -1,7 +1,7 @@
 <template>
   <transition name="standard-long-fade">
     <section v-if="showLoadingScreen" class="loading-screen">
-      <base-image img-src="/src/assets/img/logo.svg"></base-image>
+      <base-image img-src="img/logo.svg"></base-image>
     </section>
   </transition>
 </template>

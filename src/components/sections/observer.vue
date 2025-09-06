@@ -18,12 +18,10 @@ export default {
         if (this.timeout > 0) {
           setTimeout(() => {
             this.$emit("intersect");
-            console.log("TEST")
             this.checkOnce()
           }, this.timeout);
         } else {
           this.$emit("intersect");
-          console.log("TEST23")
 
           this.checkOnce()
         }
