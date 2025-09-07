@@ -1,8 +1,8 @@
 <template>
   <footer>
-    <div class="impressum" @click="showImpressum = true">
+    <div class="impressum" @click="showImpressumSection = true">
       Impressum
-      <div v-if="showImpressum">
+      <div v-if="showImpressumSection">
         <p>
           KorTraWi GmbH<br>
           Georg-Friedrich-StraÃŸe 34<br>
@@ -49,7 +49,7 @@ export default {
   components: {BaseImage},
   data() {
     return {
-      showImpressum: false
+      showImpressumSection: false
     }
   }
 }
