@@ -25,7 +25,7 @@ export default {
 
 <style>
 .loading-screen {
-  margin: 0;
+  margin: 0px;
   position: fixed;
   left: 0;
   right: 0;
